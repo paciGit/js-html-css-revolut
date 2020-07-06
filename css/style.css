@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Generali */
+body {
+  font-size: 14px;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.col {
+  width: 100%;
+  line-height: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+
+/* HEADER ----------------------------------- */
+/* Navbar */
+nav {
+  height: 70px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.col ul li {
+  display: inline-block;
+}
+.col ul li a:hover {
+  color: #191c1f;
+  font-weight: bold;
+}
+
+/* logo */
+.logo {
+  width: 12%;
+}
+
+.logo img {
+  height: 100%;
+}
+
+/* Nav right */
+.nav-tot {
+  text-align: left;
+  margin-left: 60px;
+  font-size: 17px;
+}
+
+.nav-tot ul li {
+  margin-left: 30px;
+  position: relative;
+}
+
+/* Dropdown */
+.nav-tot .menu-tot .dropdown {
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  transform: translateX(-50%);
+  text-align: left;
+  box-shadow: 0px 3px 8px 5px rgba(0, 0, 0, 0.10);
+  white-space: nowrap;
+  display: none;
+}
+
+.nav-tot .menu-tot .dropdown.active {
+  display: block;
+}
+
+.nav-tot .menu-tot .dropdown li {
+  padding: 5px 25px;
+  margin-left: 0;
+  display: block;
+}
+
+
+/* Download */
+.download {
+  width: 30%;
+  text-align: right;
+}
+
+.btn a {
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.btn.download a {
+  background-color: #000000;
+  color: white;
+}
+
+.btn.download a:hover {
+  background-color: #3c3a3a;
+}
