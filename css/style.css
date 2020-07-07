@@ -174,11 +174,11 @@ nav {
   font-size: 30px;
 }
 
-.toggle_menu .menu-tot li {
+.toggle_menu .menu-hidden li {
   line-height: 2;
 }
-.toggle_menu .menu-tot-tot li .fa-angle-down,
-.toggle_menu .menu-tot li .fa-angle-up {
+.toggle_menu .menu-hidden li .fa-angle-down,
+.toggle_menu .menu-hidden li .fa-angle-up {
   font-size: 20px;
   padding-left: 10px;
   color: #008ed1;
@@ -189,7 +189,7 @@ nav {
 }
 
 /* dropdown-bm */
-.toggle_menu .menu-tot .dropdown-bm {
+.toggle_menu .menu-hidden .dropdown-bm {
   position: absolute;
   top: 30%;
   text-align: left;
@@ -202,16 +202,16 @@ nav {
   display: none;
 }
 
-.toggle_menu .menu-tot .dropdown-bm.active {
+.toggle_menu .menu-hidden .dropdown-bm.active {
   display: block;
 }
 
-.toggle_menu .menu-tot .dropdown-bm li {
+.toggle_menu .menu-hidden .dropdown-bm li {
   padding: 5px 25px;
   display: block;
 }
 
-.toggle_menu .menu-tot .dropdown-bm .close-bm {
+.toggle_menu .menu-hidden .dropdown-bm .close-bm {
   position: absolute;
   top: 0;
   right: 0;

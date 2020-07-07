@@ -9,29 +9,11 @@ $(document).ready(
       }
     );
 
-    // Al passaggio del mouse aggiungo la classe fa-angle-up
-    // all'elemento che contiene l'id "lang"
-    $('#lang').mouseenter(
-      function() {
-        $('i').removeClass('fa-angle-down');
-        $('i').addClass('fa-angle-up');
-      }
-    );
-
     // Quando tolgo il mouse dal menu che si viene creato, tolgo la classe active
     // tolgo la classe active
     $('.with-dropdown').mouseleave(
       function() {
         $(this).children('.dropdown').removeClass('active');
-      }
-    );
-
-    // Al passaggio del mouse reinserisco la classe fa-angle-down
-    // all'elemento che contiene l'id "lang"
-    $('#lang').mouseleave(
-      function() {
-        $('i').removeClass('fa-angle-up');
-        $('i').addClass('fa-angle-down');
       }
     );
 
@@ -44,7 +26,7 @@ $(document).ready(
 
     // Quando si clicca su un link del menu il testo cambia colore
     // e viene aggiunt la classe 'active'
-    $('.menu-tot a').click(
+    $('.menu-hidden a').click(
       function() {
         $(this).toggleClass('active');
       }
