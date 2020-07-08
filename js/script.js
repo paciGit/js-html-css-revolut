@@ -17,6 +17,13 @@ $(document).ready(
       }
     );
 
+    // La lista viene mostrata quando clicco sul link nel menu hamburger
+    $('.with-dropdown-bm').click(
+      function() {
+        $(this).children('.dropdown-bm').slideToggle('active');
+      }
+    );
+
     // Quando si clicca sul menu hamburger si apre la finestra con la lista
     $('.burger-menu a').click(
       function() {
